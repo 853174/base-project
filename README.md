@@ -41,14 +41,14 @@ This configuration files are used to customize webpages' design. Default page co
 
 If you want to override `somepage.php`'s page configuration you only have to create a `somepage.php` file on that directory.
 
-|  Variable name | Accepted types | Details |
-| ------- | ------- |  ------- |
-| `title` | String | Window title of the web/app. Default: `$app_name`. |
-| `navbar` | Array, Boolean | Information about the navbar. If you want to disable it write `"navbar" => false`. Default: `Array(navbar_properties)`.|
-| `navbar.title` | String | Navbar's title. Default: `$app_name`. |
-| `navbar.home` | String (URL) | Navbar's title's link. Default: `$path`. |
-| `navbar.links` | Array | Navbar's other links. Each link has an ID and it can be overrided using the same ID on custom configuration. Check links format [here](#link-format) |
-| `footer` | Boolean | Decides wether footer is displayed or not. Default: `true`. |
+|  Variable name | Accepted types | Default value | Details |
+| ------- | ------- |  ------- |  ------- |
+| `title` | String | `$app_name`| Window title of the web/app. |
+| `navbar` | Array, Boolean | `Array(navbar_config)` | Information about the navbar. If you want to disable it write `"navbar" => false`.|
+| `navbar.title` | String | `$app_name` | Navbar's title. |
+| `navbar.home` | String (URL) | `$path` | Navbar's title's link. |
+| `navbar.links` | Array | Some examples | Navbar's other links. Each link has an ID and it can be overrided using the same ID on custom configuration. Check links format [here](#link-format) |
+| `footer` | Boolean | `true` | Decides wether footer is displayed or not.|
 
 # Link format
 
