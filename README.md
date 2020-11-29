@@ -23,7 +23,7 @@ Follow these steps to publish successfully this website on a web server.
     ```  
 4. Add your pages! To do so, you only have to create a new file at `views/` folder (i.e. `views/cv.php`). It's important that the file contains `.php` extension because the app's controller (`controller.php`) searches for this file extension only. Feel free to change it if you want to.
 
-Once you make those changes you should be able to use the website whitout problems. Read further to know how to customize this base project. If you don't know how to do something try the [Questions and Answers section](#Q&A) or send an [email to the creator](mailto:iosusala@riseup.net).
+Once you make those changes you should be able to use the website whitout problems. Read further to know how to customize this base project. If you don't know how to do something try the [Questions and Answers section](#QA) or send an [email to the creator](mailto:iosusala@riseup.net).
 
 # App configuration
 You can find the app's configuration at `/docs/php/config.php`.
