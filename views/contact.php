@@ -6,7 +6,7 @@
 
   <div class="card mt-4 mb-3">
     <div class="card-body">
-      <form class="" action="index.html" method="post">
+      <form class="" method="post">
         <div class="form-group">
           <label>Name</label>
           <input type="text" placeholder="Jhon Smith" class="form-control">
