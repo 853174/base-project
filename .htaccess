@@ -1,0 +1,19 @@
+RewriteEngine On
+RewriteBase "/base"
+
+# Prevent viewing of htaccess file.
+<Files .htaccess>
+    order allow,deny
+    deny from all
+</Files>
+
+# Prevent directory listings
+# Options All -Indexes
+
+# static -> docs
+RewriteCond %{REQUEST_URI} "static"
+RewriteRule "static/(.*)" "docs/$1" [END,QSA]
+
+# Views to controller
+RewriteRule (.+) "controller.php?page=$1" [END,QSA]
+RewriteRule "" "controller.php?page=index" [END,QSA]

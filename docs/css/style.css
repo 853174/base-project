@@ -1,0 +1,34 @@
+:root{
+  --text-color: #000000;
+
+  --primary-color: #FFFFFF;
+  --secondary-color: #006600;
+  --success-color: #;
+  --alert-color: #;
+  --danger-color: #;
+  --light-color: #FFFFFF;
+  --dark-color: #3A3A3A;
+
+}
+
+.section-with-img{
+  width: 100%;
+  min-height: 200px;
+
+  background-image: url("../img/header-img.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: auto;
+
+  color: var(--light-color);
+  padding: 20px;
+}
+
+.section-small{
+  max-width: 400px;
+  margin: auto;
+}
+
+.btn, .card, .form-control{
+  border-radius: 0;
+}
