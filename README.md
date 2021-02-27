@@ -14,7 +14,7 @@ Follow these steps to publish successfully this website on a web server.
 2. It's time to make some changes. Edit app's configuration and change `$path` variable (read [App configuration](#app-configuration)) to fit your environment. For example:
     - If your webpage is hosted in `www.somepage.com`, then `$path="/"`.
 
-    - If your webpage is hosted in some subdirectory as `www.somepage.com/newProject`, then `$path="/newProject"`.
+    - If your webpage is hosted in some subdirectory as `www.somepage.com/newProject`, then `$path="/newProject/"`.
 3. Edit `.htaccess` file and make the same change as in the previous step:
     ```
     RewriteBase "/"
